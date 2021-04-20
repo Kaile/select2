@@ -13,8 +13,8 @@
   }
 
   .select2-selection__rendered {
-    color: #444;
-    line-height: 28px;
+    color: #000000;
+    line-height: 20px;
   }
 
   .select2-selection__clear {
@@ -37,7 +37,7 @@
     border-top-right-radius: $border-radius;
     border-bottom-right-radius: $border-radius;
 
-    height: 26px;
+    height: 22px;
 
     position: absolute;
 
@@ -49,7 +49,7 @@
     @include gradient-vertical(#eeeeee, #cccccc, 50%, 100%);
 
     b {
-      border-color: #888 transparent transparent transparent;
+      border-color: #333 transparent transparent transparent;
       border-style: solid;
       border-width: 5px 4px 0 4px;
 
